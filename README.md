@@ -325,5 +325,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 **Status**: ✅ Scientifically Validated | **Version**: 2.0.0 | **Last Updated**: 2025-06-29
-
-**STRICT COMPLIANCE**: No artificial tuning, no fallback methods, no workarounds - Pure physics implementation.
