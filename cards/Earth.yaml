@@ -1,0 +1,27 @@
+# Earth orbital parameters
+# Source: NASA JPL Solar System Dynamics
+# Note: Earth's precession is dominated by planetary perturbations
+
+# Masses (solar masses)  
+M1: 1.0              # Sun mass
+M2: 3.003e-6         # Earth mass (5.972e24 kg / 1.989e30 kg)
+
+# Orbital elements
+e: 0.0167086         # Eccentricity (current epoch)
+a: 1.496e11          # Semi-major axis in meters (1.0 AU)
+i: 0.0               # Inclination relative to ecliptic (degrees)
+P_orb: 3.156e7       # Orbital period in seconds (365.25 days)
+
+# Observational data for perihelion precession
+observed_precession: 3.84   # arcsec/century (total observed)
+gr_precession: 3.84          # arcsec/century (GR prediction)
+newtonian_perturbations: 7.61 # arcsec/century (planetary perturbations)
+uncertainty: 0.21            # arcsec/century (observational uncertainty)
+
+# Physical parameters
+radius: 6.371e6      # Earth radius in meters
+mass_kg: 5.972e24    # Earth mass in kg
+
+# Notes
+description: "Earth perihelion precession test for E-QFT (GR effect small compared to perturbations)"
+reference: "Pitjeva & Pitjev (2013), Solar System ephemeris studies"

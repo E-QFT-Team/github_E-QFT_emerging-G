@@ -1,0 +1,28 @@
+# Mercury orbital parameters for perihelion precession tests
+
+# Masses (solar masses)
+M1: 1.0               # Sun mass (normalized)
+M2: 1.65956e-7        # Mercury mass (solar masses)
+
+# Orbital parameters  
+e: 0.20563593         # Orbital eccentricity
+a: 5.7909050e10       # Semi-major axis (metres)
+P_orb: 7600521.0      # Orbital period (seconds, ~88 days)
+
+# System properties
+distance: 1.0         # Distance (AU, for reference)
+inclination: 7.0      # Orbital inclination to ecliptic (degrees)
+
+# Observational data for validation
+omega_dot_obs: 43.0   # Observed perihelion advance (arcsec/century)
+omega_dot_GR: 42.98   # Einstein GR prediction (arcsec/century)
+
+# Physical constants
+G_eff: 6.67430e-11    # Gravitational constant (m³ kg⁻¹ s⁻²)
+c: 299792458          # Speed of light (m s⁻¹)  
+M_sun: 1.98847e30     # Solar mass (kg)
+
+# Metadata
+system_type: "planetary"
+precision_class: "high"
+notes: "Classic test of general relativity"

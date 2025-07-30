@@ -1,0 +1,30 @@
+# PSR J0737-3039A Hulse-Taylor Binary Pulsar Parameters
+
+name: PSR J0737-3039A (Double Pulsar),
+
+# Masses (solar masses)
+M1: 1.3381,  # Pulsar A mass [M_sun]
+M2: 1.2489,  # Pulsar B mass [M_sun] 
+
+# Orbital parameters
+e: 0.0877775           # Orbital eccentricity
+a: 9.0e8             # Semi-major axis (metres)
+P_orb: 2.4 * 3600       # Orbital period (seconds, ~7.75 hours)
+
+# System properties
+inclination: 88.69     # Orbital inclination (degrees)
+
+# Observational data for validation
+omega_dot_obs: 16.8995  # Observed periastron advance (deg/year)
+P_dot_obs: -2.4184e-12   # Orbital period derivative (dimensionless)
+dP_dt_obs: -1.252e-12,  # Observed period decay [s/s]
+
+# Physical constants for this system
+G_eff: 6.67430e-11    # Effective gravitational constant (m³ kg⁻¹ s⁻²)
+c: 299792458          # Speed of light (m s⁻¹)
+M_sun: 1.98847e30     # Solar mass (kg)
+
+# Metadata
+discovery_year: 1974
+observers: ["Hulse", "Taylor"]
+notes: "First binary pulsar discovered, Nobel Prize 1993"

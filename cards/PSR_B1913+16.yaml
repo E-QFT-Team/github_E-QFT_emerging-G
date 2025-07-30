@@ -1,0 +1,30 @@
+# PSR B1913+16 Hulse-Taylor Binary Pulsar Parameters
+# Nobel Prize winning system for gravitational wave confirmation
+
+# Masses (solar masses)
+M1: 1.441  # Pulsar mass
+M2: 1.387  # Companion neutron star mass
+
+# Orbital parameters
+e: 0.617155           # Orbital eccentricity
+a: 1.95e9             # Semi-major axis (metres)
+P_orb: 27906.98       # Orbital period (seconds, ~7.75 hours)
+
+# System properties
+distance: 7000        # Distance from Earth (parsecs)
+inclination: 45.0     # Orbital inclination (degrees)
+
+# Observational data for validation
+omega_dot_obs: 4.226598  # Observed periastron advance (deg/year)
+P_dot_obs: -2.4184e-12   # Orbital period derivative (dimensionless)
+dP_dt_obs: -2.4184e-12,  # Observed period decay [s/s]
+
+# Physical constants for this system
+G_eff: 6.67430e-11    # Effective gravitational constant (m³ kg⁻¹ s⁻²)
+c: 299792458          # Speed of light (m s⁻¹)
+M_sun: 1.98847e30     # Solar mass (kg)
+
+# Metadata
+discovery_year: 1974
+observers: ["Hulse", "Taylor"]
+notes: "First binary pulsar discovered, Nobel Prize 1993"

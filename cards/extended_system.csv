@@ -1,0 +1,8 @@
+name,m1_solar,m2_solar,a_au,e,observed_precession_arcsec_per_century,uncertainty_arcsec_per_century,gr_prediction_arcsec_per_century,description,system_type,units
+Mercury,1.0,1.65e-7,0.387,0.205636,43.11,0.21,42.98,Mercury perihelion precession - most precise solar system test,solar_system,arcsec_per_century
+Venus,1.0,2.45e-6,0.723,0.006772,8.62,0.16,8.6,Venus perihelion precession,solar_system,arcsec_per_century
+Earth,1.0,3.0e-6,1.0,0.016709,11.45,0.21,3.84,Earth perihelion precession (dominated by planetary perturbations),solar_system,arcsec_per_century
+Mars,1.0,3.2e-7,1.524,0.0934,1.35,0.15,1.35,Mars perihelion precession,solar_system,arcsec_per_century
+Icarus,1.0,1e-15,1.077,0.827,9.8,0.7,10.3,Asteroid 1566 Icarus - high eccentricity test,solar_system,arcsec_per_century
+Jupiter,1.0,9.55e-4,5.204,0.0489,0.070,0.003,0.072,Jupiter perihelion precession - gas giant test,solar_system,arcsec_per_century
+Eros,1.0,3.3e-15,1.458,0.223,4.5,0.8,4.7,Asteroid 433 Eros - near-Earth asteroid with moderate eccentricity,solar_system,arcsec_per_century

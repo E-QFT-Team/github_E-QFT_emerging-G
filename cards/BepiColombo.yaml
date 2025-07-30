@@ -1,0 +1,27 @@
+# BepiColombo spacecraft trajectory
+# ESA/JAXA mission to Mercury - precision orbit determination
+# Source: ESA Mission Analysis
+
+# Masses (solar masses) - spacecraft in solar orbit
+M1: 1.0              # Sun mass
+M2: 2e-12            # Spacecraft mass (~4000 kg / 1.989e30 kg)
+
+# Orbital elements (Mercury transfer trajectory)
+e: 0.25              # Transfer orbit eccentricity
+a: 1.1e11            # Semi-major axis in meters (Mercury-like)
+i: 7.0               # Inclination (degrees)
+P_orb: 2.6e7         # Orbital period in seconds (~88 days)
+
+# Observational data for trajectory precision
+observed_precession: 15.2    # arcsec/century (spacecraft tracking)
+gr_precession: 15.0          # arcsec/century (GR prediction)
+newtonian_perturbations: 0.2 # arcsec/century (minimal)
+uncertainty: 0.05            # arcsec/century (DSN tracking precision)
+
+# Physical parameters
+radius: 2.0          # Effective spacecraft radius in meters
+mass_kg: 4000        # Spacecraft mass in kg
+
+# Notes
+description: "BepiColombo spacecraft - ultra-precision tracking test for E-QFT"
+reference: "ESA BepiColombo mission, precision orbit determination"

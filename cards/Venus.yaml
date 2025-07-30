@@ -1,0 +1,27 @@
+# Venus orbital parameters
+# Source: NASA JPL Solar System Dynamics
+# https://ssd.jpl.nasa.gov/planets/phys_par.html
+
+# Masses (solar masses)
+M1: 1.0              # Sun mass
+M2: 2.447e-6         # Venus mass (4.868e24 kg / 1.989e30 kg)
+
+# Orbital elements
+e: 0.006772          # Eccentricity
+a: 1.082e11          # Semi-major axis in meters (0.723 AU)
+i: 3.39              # Inclination (degrees)
+P_orb: 1.941e7       # Orbital period in seconds (224.7 days)
+
+# Observational data for perihelion precession
+observed_precession: 8.62    # arcsec/century (total observed)
+gr_precession: 8.6           # arcsec/century (GR prediction)
+newtonian_perturbations: 0.0 # arcsec/century (planetary perturbations)
+uncertainty: 0.16            # arcsec/century (observational uncertainty)
+
+# Physical parameters
+radius: 6.0518e6     # Venus radius in meters
+mass_kg: 4.8675e24   # Venus mass in kg
+
+# Notes
+description: "Venus perihelion precession test for E-QFT"
+reference: "Pitjeva & Pitjev (2013), Relativistic effects and dark matter in the Solar System"

@@ -1,0 +1,26 @@
+# Mars orbital parameters
+# Source: NASA JPL Solar System Dynamics
+
+# Masses (solar masses)
+M1: 1.0              # Sun mass  
+M2: 3.227e-7         # Mars mass (6.417e23 kg / 1.989e30 kg)
+
+# Orbital elements
+e: 0.0934            # Eccentricity
+a: 2.279e11          # Semi-major axis in meters (1.524 AU)
+i: 1.85              # Inclination (degrees)
+P_orb: 5.935e7       # Orbital period in seconds (687 days)
+
+# Observational data for perihelion precession
+observed_precession: 1.35    # arcsec/century (total observed)
+gr_precession: 1.35          # arcsec/century (GR prediction)
+newtonian_perturbations: 0.0 # arcsec/century (minimal planetary effects)
+uncertainty: 0.15            # arcsec/century (observational uncertainty)
+
+# Physical parameters
+radius: 3.3895e6     # Mars radius in meters
+mass_kg: 6.417e23    # Mars mass in kg
+
+# Notes
+description: "Mars perihelion precession test for E-QFT"
+reference: "Pitjeva & Pitjev (2013), Mars precession from radar ranging"

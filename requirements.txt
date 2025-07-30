@@ -1,0 +1,20 @@
+# Core scientific computing - REQUIRED
+numpy>=1.21.0
+scipy>=1.7.0
+
+# Parallel processing - REQUIRED for corrected algorithm
+joblib>=1.0.0
+
+# Visualization - OPTIONAL
+matplotlib>=3.4.0
+
+# Development and testing - OPTIONAL
+pytest>=6.0.0
+
+# REMOVED: networkx (corrected algorithm uses direct geometric approach)
+# REMOVED: pandas (not needed for core physics)
+# REMOVED: seaborn (optional visualization only)
+# REMOVED: sphinx (documentation tools)
+
+# Note: Corrected Ryu-Takayanagi algorithm uses pure geometric surface minimization
+# without NetworkX graph algorithms, following strict physics compliance
