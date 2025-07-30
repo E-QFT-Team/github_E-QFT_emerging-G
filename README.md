@@ -1,4 +1,4 @@
-# Emergent Gravity from Quantum Field Theory
+# Emergent Gravity from Emergent Quantum Field Theory (E-QFT)
 
 A rigorous implementation of emergent gravity calculations using quantum field theory via holographic duality. This project demonstrates how classical gravity emerges from quantum commutator metrics through proper surface minimization protocols.
 
